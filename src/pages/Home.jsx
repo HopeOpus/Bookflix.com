@@ -65,10 +65,10 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="Home-screen ">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg')] bg-cover bg-center opacity-10"></div>
+      <section className="relative">
+        <div className=" Hero-bg absolute inset-0  bg-cover bg-center opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
             <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6">
